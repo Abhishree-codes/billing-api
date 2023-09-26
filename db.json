@@ -1,29 +1,190 @@
 {
-    "items": [
+    "items": 
+    [
       {
         "id": 1,
         "name": "Book",
-        "price": 200,
-        "sold": 2
+        "price": 300
       },
       {
         "id": 2,
         "name": "Ring",
+        "price": 500
+      },
+      {
+        "name": "Coffee",
         "price": 500,
-        "sold": 3
+        "id": 3
+      },
+      {
+        "name": "Bag",
+        "price": 20,
+        "id": 4
+      },
+      {
+        "name": "Glasses",
+        "price": 200,
+        "id": 5
+      },
+      {
+        "name": "Bandana",
+        "price": 300,
+        "id": 6
+      },
+      {
+        "name": "Burrito",
+        "price": 50,
+        "id": 7
+      },
+      {
+        "name": "Apples",
+        "price": 30,
+        "id": 8
       }
     ],
     "bills":[
-        {
-            "id":1,
-            "billID":"2023092201",
-            "date":"22/09/2023",
-            "total":400
-        },{
-            "id":2,
-            "billID":"202009100130",
-            "date":"10/09/2020",
-            "total":1500
-        }
+      {
+        "billID": "Bill #202309270313",
+        "date": "27/09/2023",
+        "total": 1100,
+        "items": [
+          {
+            "id": 2,
+            "name": "Ring",
+            "price": 100,
+            "sold": 3,
+            "quantity": 7
+          },
+          {
+            "id": 1,
+            "name": "Book",
+            "price": 200,
+            "sold": 2,
+            "quantity": 2
+          }
+        ],
+        "id": 1
+      },
+      {
+        "billID": "Bill #202309270328",
+        "date": "27/09/2023",
+        "total": 700,
+        "items": [
+          {
+            "id": 2,
+            "name": "Ring",
+            "price": 500,
+            "sold": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "name": "Book",
+            "price": 200,
+            "sold": 2,
+            "quantity": 1
+          }
+        ],
+        "id": 2
+      },
+      {
+        "billID": "Bill #202309270401",
+        "date": "27/09/2023",
+        "total": 1900,
+        "items": [
+          {
+            "id": 2,
+            "name": "Ring",
+            "price": 500,
+            "sold": 3,
+            "quantity": 3
+          },
+          {
+            "id": 1,
+            "name": "Book",
+            "price": 200,
+            "sold": 2,
+            "quantity": 2
+          }
+        ],
+        "id": 3
+      },
+      {
+        "billID": "Bill #202309270454",
+        "date": "27/09/2023",
+        "total": 1000,
+        "items": [
+          {
+            "name": "Coffee",
+            "price": 500,
+            "quantity": 2
+          }
+        ],
+        "id": 4
+      },{
+        "billID": "Bill #202309270454",
+        "date": "27/09/2023",
+        "total": 360,
+        "items": [
+          {
+            "name": "Bag",
+            "price": 20,
+            "id": 6,
+            "quantity": 3
+          },
+          {
+            "name": "Bandana",
+            "price": 300,
+            "id": 9,
+            "quantity": 1
+          }
+        ],
+        "id": 5
+      },{
+        "billID": "Bill #202309270455",
+        "date": "27/09/2023",
+        "total": 150,
+        "items": [
+          {
+            "name": "Burrito",
+            "price": 50,
+            "id": 10,
+            "quantity": 2
+          },
+          {
+            "name": "Bag",
+            "price": 20,
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "name": "Apples",
+            "price": 30,
+            "id": 11,
+            "quantity": 1
+          }
+        ],
+        "id": 6
+      },{
+        "billID": "Bill #202309270456",
+        "date": "27/09/2023",
+        "total": 360,
+        "items": [
+          {
+            "id": 1,
+            "name": "Book",
+            "price": 300,
+            "sold": 2,
+            "quantity": 1
+          },
+          {
+            "name": "Apples",
+            "price": 30,
+            "id": 11,
+            "quantity": 2
+          }
+        ],
+        "id": 7
+      }
     ]
   }
